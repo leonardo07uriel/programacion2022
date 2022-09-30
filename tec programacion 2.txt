@@ -9,3 +9,49 @@
 <p></p>
 </body>
 </html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="#">      
+    <link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css">	         
+      
+	<link rel="stylesheet" href="estilos.css">
+    <title>Mi tabla Dinamica</title>  
+  <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css"></head>
+  <body>
+     <header style="height: 70px">
+         <h2 class="text-center text-light"><span class="badge badge-success">Tabla Dinamica</span></h2> 
+     </header> 
+      <div style="height: 50px;"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">                             
+             <table id="myTable" class="table table-dark"><tr><th>#</th><th>Usuario</th><th>Edad</th><th>Género</th><th>País</th><th>contraseña</th><th>Action</th></tr><tr><td data-codeapi-srno="0"></td><td><input type="text" class="form-control" data-codeapi-inputkey="User" data-codeapi-defaultvalue=""></td><td><input type="number" class="form-control" data-codeapi-inputkey="age" data-codeapi-defaultvalue=""></td><td><select class="form-control" data-codeapi-inputkey="gender" data-codeapi-defaultvalue="M"><option value="M">Masculino</option><option value="F">Femenino</option></select></td><td><input type="text" class="form-control" data-codeapi-inputkey="pais" data-codeapi-defaultvalue=""></td><td><input type="text" class="form-control" data-codeapi-inputkey="password" data-codeapi-defaultvalue=""></td><td> <input type="button" value="Nuevo" class="btn btn-success"></td></tr><tr><td data-codeapi-srno="1">1</td><td><input type="text" class="form-control" data-codeapi-inputkey="User" style="display: none;"><span data-codeapi-displaykey="User" data-codeapi-value="Alfonso">Alfonso</span></td><td><input type="number" class="form-control" data-codeapi-inputkey="age" style="display: none;"><span data-codeapi-displaykey="age" data-codeapi-value="18">18</span></td><td><select class="form-control" data-codeapi-inputkey="gender" style="display: none;"><option value="M">Masculino</option><option value="F">Femenino</option></select><span data-codeapi-displaykey="gender" data-codeapi-value="M">Masculino</span></td><td><input type="text" class="form-control" data-codeapi-inputkey="pais" style="display: none;"><span data-codeapi-displaykey="pais" data-codeapi-value="Mexico">Mexico</span></td><td><input type="text" class="form-control" data-codeapi-inputkey="password" style="display: none;"><span data-codeapi-displaykey="password" data-codeapi-value="1216">1216</span></td><td> <input type="button" value="Guardar" class="btn btn-success" data-codeapi-savecommand="true" style="display: none;"> <input type="button" value="Editar" class="btn btn-primary" data-codeapi-editcommand="true"> <input type="button" value="Borrar" class="btn btn-danger" data-codeapi-deletecommand="true"> <input type="button" value="Cancelar" class="btn btn-primary" data-codeapi-cancelcommand="true" style="display: none;"></td></tr><tr><td data-codeapi-srno="2">2</td><td><input type="text" class="form-control" data-codeapi-inputkey="User" style="display: none;"><span data-codeapi-displaykey="User" data-codeapi-value="Jorge">Jorge</span></td><td><input type="number" class="form-control" data-codeapi-inputkey="age" style="display: none;"><span data-codeapi-displaykey="age" data-codeapi-value="18">18</span></td><td><select class="form-control" data-codeapi-inputkey="gender" style="display: none;"><option value="M">Masculino</option><option value="F">Femenino</option></select><span data-codeapi-displaykey="gender" data-codeapi-value="M">Masculino</span></td><td><input type="text" class="form-control" data-codeapi-inputkey="pais" style="display: none;"><span data-codeapi-displaykey="pais" data-codeapi-value="Mexico">Mexico</span></td><td><input type="text" class="form-control" data-codeapi-inputkey="password" style="display: none;"><span data-codeapi-displaykey="password" data-codeapi-value="1203">1203</span></td><td> <input type="button" value="Guardar" class="btn btn-success" data-codeapi-savecommand="true" style="display: none;"> <input type="button" value="Editar" class="btn btn-primary" data-codeapi-editcommand="true"> <input type="button" value="Borrar" class="btn btn-danger" data-codeapi-deletecommand="true"> <input type="button" value="Cancelar" class="btn btn-primary" data-codeapi-cancelcommand="true" style="display: none;"></td></tr></table>                
+            </div>                                        
+        </div>                  
+    </div>
+      
+    <script src="jquery/jquery-3.3.1.min.js"></script>	 	
+    <script src="popper/popper.min.js"></script>	 	 	
+    <script src="bootstrap4/js/bootstrap.min.js"></script>   
+      
+    <!--  Plugin DynamicTable -->
+    <script src="plugins/dynamicTable/jquery.dynamicTable-1.0.0.js"></script>
+		
+    <script src="codigo.js"></script>
+
+    <div class="burbujas">
+      <div class="burbuja"></div>
+      <div class="burbuja"></div>
+      <div class="burbuja"></div>
+      <div class="burbuja"></div>
+      <div class="burbuja"></div>
+      <div class="burbuja"></div>
+      <div class="burbuja"></div>
+      <div class="burbuja"></div>
+      <div class="burbuja"></div>
+      <div class="burbuja"></div>
+  </div><div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="https://www.gstatic.com/images/branding/product/1x/translate_24dp.png" width="20" height="20" alt="Google Traductor de Google"></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">Texto original</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">Sugiere una traducción mejor</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;"><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div>
+	  	
+  
+<div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div></body></html>
